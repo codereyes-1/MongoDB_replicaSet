@@ -18,7 +18,7 @@ config = { _id: "m103rs", members:[
 rs.initiate(config);
 
 # verify replSet status of each member
-rs.status();
+rs.status(); 
 
 
 
