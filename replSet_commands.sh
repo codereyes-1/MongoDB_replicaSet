@@ -6,7 +6,7 @@ mongod --replSet m103rs --logpath "rps2.log" --dbpath rps2 --port 27018 &
 mongod --replSet m103rs --logpath "rps3.log" --dbpath rps3 --port 27019 &
 
 # connect to Mongo
-mongo
+mongo;
 
 # var for replSet member configuration
 config = { _id: "m103rs", members:[
