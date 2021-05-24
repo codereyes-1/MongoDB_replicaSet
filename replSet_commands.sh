@@ -14,7 +14,7 @@ config = { _id: "m103rs", members:[
 			{_id: 1, host: "localhost:27018"},
 			{_id: 2, host: "localhost:27019"},]};
 
-# initiates the config on each mongod			
+# initiates the config to bind 3 mongod instances			
 rs.initiate(config);
 
 # verify replSet status of each member
